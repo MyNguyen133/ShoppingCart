@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        #header {
+           display: flex;
+           background-color: #3a74e6;
+           width: 100%;
+           height: 100px;
+        }
+        #header .img {
+            float:left;
+            position:absolute;
+        }
+        
+        #header li {
+            margin-top:10px;
+            margin-left: 10px;
+            display: inline-block;
+            
+            
+        }
+        #header a {
+            color:#f3ebeb;
+            display: inline-flex;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        #header a:hover {
+            color:aquamarine;
+        }
+        #header i {
+            width: 40px;
+            margin-top: 20px;
+            margin-left :104px;
+        }
+        #header p{
+            position: absolute;
+            display: inline-block;
+            margin-left: 80px;
+            color: white;
+        }
+        #sidebar {
+            background-color: rgb(232, 44, 44);
+            width: 85%;
+            height:150px; 
+        }
+        #sidebar img {
+            position:absolute;
+            float: left;
+        }
+        #sidebar h1{
+           position: absolute;
+           margin-left: 350px;
+           color: white;
+           line-height: 50px;
+
+        }
+        #sidebar p1{
+            position: absolute;
+            font-size: 70px;
+            margin-left: 500px;
+            margin-top: 30px;
+            color: white;
+        }
+        #img2 {
+            float:right;
+        }
+        .comtainer {
+            width:90%;
+            align-content: center;
+            margin:auto;
+        }
+        .product-items {
+            display:flex;
+            justify-content: space-between;
+            background-color: white;
+            padding:12px;
+          
+        }
+        .product-item {
+            width: 30%;
+            background-color:white ;
+            padding:12px;
+            text-align: center;
+        }
+        .product-item img {
+            width:100%;
+            margin-bottom: 20px;
+            
+        }
+        .product-item-text {
+            display: flex;
+            justify-content: space-between;
+        }
+        .product p3 {
+            display: inline;
+            background-color: red;
+            color: white;
+        }
+        .product button {
+            background-color: rgba(239, 187, 56, 0.852);
+            color: white;
+            border-color: white;
+        }
+        .product-item p1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+         .cart {
+            
+            height:50vh;
+            width:400px;
+            right:0;
+            top:0;
+            background-color: antiquewhite;
+            overflow-y: scroll;
+        } 
+        .thanhtoan button {
+            margin-top:12px;
+            height:30px;
+            padding: 0 12px;
+            cursor: pointer;
+            border: none;
+            background-color: #f99c10;
+            color:black;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+
+        }
+        #footer {
+            background-color: #211bb9;
+            width: 100%;
+            height:300px;
+        }
+        #footer p2{
+            color:white;
+        }
+        #footer p4 {
+            color: white;
+            line-height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header" width="100%" height="100px">
+        <img src="clothes.jpg" width="200px" height="100px">
+        <ul>
+            <li><strong><a href="">SẢN PHẨM MỚI</a></strong></li>
+            <li><strong><a href="">ĐIỆN THOẠI</a></strong></li>
+            <li><strong><a href="">LAPTOP</a></strong></li>
+            <li><strong><a href="">MÁY TÍNH BẢNG</a></strong></li>
+            <li><strong><a href="">GAMING PC</a></strong></li>
+            <li><strong><a href="">BÀN PHÍM & CHUỘT</a></strong></li>
+            
+        </ul>
+        <span><i class="material-icons">store</i><br><p>Cửa hàng</p></span>
+        <span><i class="material-symbols-outlined">shopping_cart_checkout</i><br><p>Giỏ hàng</p></span>
+       <span><i class="material-symbols-outlined"> person</i><br><p>Tài khoản</p></span>
+    </div>
+    
+
+    <div id="sidebar">
+        <img src="laptop1.jpg" width="200px" height="150px">
+        <h1>SALE <br> UP TO</h1>
+        <p1>20%</p1>
+        <span id="img2">
+            <img class="img2" src="laptop2.jpg"  height="150px">
+        </span>
+    </div>
+    </div>
+    <section class="product">
+        <div class="container">
+        <div class="product-items">
+            <div class="product-item" width="30%">
+                <img src="laptop2.jpg" alt="">
+                <div class="product-item-text">
+                    <p><span>Laptop Dell Inspiron 3520 N5I5011W1 (Core i5 1235U/ 16GB/ 512GB SSD/ Intel UHD Graphics/ 15.6inch Full HD/ Windows 11 Home + Office Student/ Black/ Vỏ nhựa/ 1 Year)</span></p>
+                   
+                </div>
+                <p1>18.000.000 </p1><sup>đ</sup><br>
+                <p2><del>20.000.000</del></p2><p3>-10%</p3><br>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-item" width="30%">
+                <img src="laptop3.jpg" alt="">
+                <div class="product-item-text">
+                    <p><span>Laptop Lenovo V14 G4 IAH (Core i5 12500H/ 16GB/ 512GB SSD/ Intel UHD Graphics/ 14.0inch Full HD/ Windows 11 Home/ Iron Grey/ ABS/ 1 Year)</span></p>
+                    
+                </div>
+                <p1>18.000.000 </p1><sup>đ</sup><br>
+                <p2><del>20.000.000</del></p2><p3>-10%</p3><br>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-item" width="30%">
+                <img src="laptop4.jpg" alt="">
+                <div class="product-item-text">
+                    <p><span>Laptop Lenovo ThinkBook 14 G6 IRL (Core i5 13500H/ 16GB/ 512GB SSD/ Intel Iris Xe Graphics/ 14.0inch WUXGA/ Windows 11 Home/ Grey/ Vỏ nhôm/ 2 Year)</span></p>
+                    
+                </div>
+                <p1>13.500.000 </p1><sup>đ</sup><br>
+                <p2><del>15.000.000</del></p2><p3>-10%</p3><br>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+
+    <section class="product">
+        <div class="container">
+        <div class="product-items">
+            <div class="product-item" width="30%">
+                <img src="laptop5.jpg" alt="">
+                <div class="product-item-text">
+                    <p><span>Laptop Asus Vivobook Flip TP3402VA-LZ118W (Core i9-13900H/ 16GB/ 512GB SSD/ Intel Iris Xe Graphics/ 14.0inch WUXGA/ Windows 11 Home/ Silver/ Vỏ nhôm)</span></p>
+                    
+                </div>
+                <p1>24.000.000 </p1><sup>đ</sup><br>
+                <p2><del>30.000.000</del></p2><p3>-20%</p3><br>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-item" width="30%">
+                <img src="laptop1.jpg" alt="">
+                <div class="product-item-text">
+                    <p><span>Laptop Asus Vivobook 14X OLED S3405VA-KM072W (Core i5 13500H/ 16GB/ 512GB SSD/ Intel Iris Xe Graphics/ 14.0inch 2.8K/ Windows 11 Home/ Bạc/ Vỏ nhôm)</span></p>
+                    
+                </div>
+                <p1>24.000.000 </p1><sup>đ</sup><br>
+                <p2><del>30.000.000</del></p2><p3>-20%</p3><br>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            <div class="product-item" width="30%">
+                <img src="laptop6.jpg" alt="">
+                <div class="product-item-text">
+                    <p><span>Laptop Asus Vivobook X415EA-EK1387W (Core i3 1115G4/ 8GB/ 256GB SSD/ Intel UHD Graphics/ 14.0inch Full HD/ Windows 11 Home/ Silver)</span></p>
+                    
+                </div>
+                <p1>10.000.000 </p1><sup>đ</sup><br>
+                <p2><del>9.000.000</del></p2><p3>-10%</p3><br>
+                <button>Thêm vào giỏ hàng</button>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+    <section  class="cart">
+        <form action="">
+            <table>
+                <thead>
+                    <tr style="text-align: center;">Thông tin đơn hàng</tr>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Chọn</th>
+                    </tr>
+                    
+                </thead>
+                <tbody>
+                    <!-- < <tr>
+                        <td><img style="width: 150px;" src="laptop2.jpg"></td>
+                        <td><p><span>18.000.000</span><sup>đ</sup></p></td>
+                        <td><input style="width:30px" type="number" value="1" min="0"></td>
+                        <td style="cursor:pointer;">Xóa</td>
+                    </tr>
+                    <tr>
+                        <td><img style="width: 150px;" src="laptop3.jpg"></td>
+                        <td><p><span>18.000.000</span><sup>đ</sup></p></td>
+                        <td><input style="width:30px" type="number" value="1" min="0"></td>
+                        <td style="cursor:pointer;">Xóa</td>
+                    </tr>  -->
+                </tbody>
+            </table>
+            <div  class="price-total">
+                <p style="font-weight: bold;">Tổng tiền: <span>0</span> <sup>đ</sup></p>
+            </div>
+            <span class="thanhtoan"><button>Thanh toán ngay</button></span>
+        </form>
+    </section>
+
+
+    <div id="footer">
+        <table align="center">
+            <tr>
+                <th>
+                    <p2>THÔNG TIN CÔNG TY</p2><br>
+                    <p4>Giới thiệu công ty</p4><br>
+                    <p4>Thông tin liên hệ</p4><br>
+                    <p4>Thông tin tuyển dụng</p4><br>
+                    <p4>Chính sách bảo mật thông tin</p4><br>
+                </th>
+                <th>
+                    <p2>QUY ĐỊNH & CHÍNH SÁCH</p2><br>
+                    <p4>Chính sách kinh doanh</p4><br>
+                    <p4>Chính sách bảo hành</p4><br>
+                    <p4>Chính sách đổi trả sản phẩm</p4><br>
+                    <p4>Chính sách kiểm hàng</p4>
+                </th>
+                <th>
+                    <p2>HỖ TRỢ KHÁCH HÀNG</p2><br>
+                    <p4>Hướng dẫn mua hàng online</p4><br>
+                    <p4>Hướng dẫn mua hàng trả góp</p4><br>
+                    <p4>Phương thức thanh toán</p4><br>
+                    <p4>Gửi góp ý,khiếu nại</p4><br>
+                </th>
+            </tr>
+            
+        </table>
+
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
